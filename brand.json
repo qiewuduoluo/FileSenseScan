@@ -1,0 +1,33 @@
+{
+  "app_name": "FileSenseScan",
+  "logo_path": "C:/Users/Administrator/Pictures/u=2247611419,418433268&fm=253&fmt=auto&app=138&f=JPEG.webp",
+  "window_icon": "assets/app.ico",
+  "primary": "#2C93FF",
+  "bg": "#161A20",
+  "panel": "#1E232B",
+  "text": "#E8E9EB",
+  "muted": "#9AA4B2",
+  "themes": {
+    "迅雷深蓝": {
+      "primary": "#2C93FF",
+      "bg": "#161A20",
+      "panel": "#1E232B",
+      "text": "#E8E9EB",
+      "muted": "#9AA4B2"
+    },
+    "极夜黑": {
+      "primary": "#4AA3FF",
+      "bg": "#0E1116",
+      "panel": "#151922",
+      "text": "#EDEFF2",
+      "muted": "#9AA0A6"
+    },
+    "暖灰蓝": {
+      "primary": "#3F8CFF",
+      "bg": "#1A1D24",
+      "panel": "#222833",
+      "text": "#F0F1F3",
+      "muted": "#A8B0BA"
+    }
+  }
+}
