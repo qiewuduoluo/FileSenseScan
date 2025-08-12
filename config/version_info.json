@@ -1,0 +1,24 @@
+{
+  "current_version": "1.0.1",
+  "versions": [
+    {
+      "version": "1.0.1",
+      "commit_hash": "a6899e43",
+      "timestamp": "2025-08-11T10:10:16.009275",
+      "author": "qiewuduoluo",
+      "description": "修复导入问题并完善版本管理",
+      "changes": [
+        "修复相对导入问题",
+        "完善错误监控系统",
+        "优化版本管理GUI"
+      ],
+      "stability_score": 95.0,
+      "is_stable": true,
+      "backup_path": "H:\\Code\\FileSenseScan\\backups\\backup_1.0.1_20250811_101016",
+      "rollback_count": 0
+    }
+  ],
+  "last_update": "2025-08-11T10:10:16.228092",
+  "total_commits": 1,
+  "stable_versions": []
+}

@@ -1,5 +1,31 @@
+# GUI界面
 customtkinter>=5.2.2
 pillow>=10.4.0
+
+# 网络请求
 requests>=2.32.3
+
+# 打包工具
 pyinstaller>=6.9.0
-PyMuPDF>=1.24.0 
+
+# PDF处理
+PyMuPDF>=1.24.0
+
+# 版本管理和系统监控
+psutil>=5.9.0
+
+# 错误处理和日志
+colorlog>=6.8.0
+
+# 数据验证
+pydantic>=2.0.0
+
+# 异步支持
+asyncio-mqtt>=0.16.0
+
+# 配置管理
+python-dotenv>=1.0.0
+
+# 测试工具
+pytest>=7.0.0
+pytest-asyncio>=0.21.0 

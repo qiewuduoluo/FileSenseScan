@@ -16,7 +16,7 @@ pyinstaller ^
   --icon assets\app.ico ^
   --add-data "assets;assets" ^
   --add-data "app;app" ^
-  app\gui_app_modern.py
+  app\gui\main_gui.py
 
 echo.
 echo ✅ 打包完成！可执行文件位置：dist\FileSenseScan.exe

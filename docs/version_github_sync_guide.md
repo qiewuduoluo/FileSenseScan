@@ -1,0 +1,68 @@
+# 🔄 GitHub 同步使用说明
+
+> 一键同步代码到GitHub，让版本管理更加便捷
+
+## 🚀 快速同步方法
+
+### ⭐ 方法1：双击批处理文件（推荐）
+直接双击 `version_sync_to_github.bat` 文件即可！
+
+### 🔧 方法2：使用PowerShell脚本
+右键点击 `version_sync_to_github.ps1` → **"使用PowerShell运行"**
+
+## 📋 脚本功能
+
+自动同步脚本会执行以下操作：
+
+| 步骤 | 操作 | 状态 |
+|------|------|------|
+| 1️⃣ | 检查Git仓库状态 | ✅ |
+| 2️⃣ | 添加所有更改到暂存区 | ✅ |
+| 3️⃣ | 提示输入提交信息 | ✅ |
+| 4️⃣ | 自动提交更改 | ✅ |
+| 5️⃣ | 推送到GitHub | ✅ |
+
+## ⚠️ 注意事项
+
+- **首次使用** 需要输入GitHub用户名和密码/Token
+- **网络连接** 确保网络连接正常
+- **运行位置** 脚本必须在项目根目录下运行
+
+## 🛠️ 手动同步命令
+
+如果脚本有问题，也可以手动执行：
+
+```bash
+git add .
+git commit -m "更新说明"
+git push origin main
+```
+
+## ❓ 常见问题
+
+### Q: 提示权限错误怎么办？
+**A:** 需要在GitHub上生成Personal Access Token，用Token代替密码
+
+### Q: 推送失败怎么办？
+**A:** 检查网络连接，确保GitHub仓库地址正确
+
+### Q: 如何生成Personal Access Token？
+**A:** 
+1. 访问 GitHub → Settings
+2. 选择 Developer settings
+3. 点击 Personal access tokens
+4. 选择 Generate new token
+
+## 📚 相关文档
+
+- [版本管理系统使用说明](README_GUI.md)
+- [版本管理批处理脚本](version_management.bat)
+- [版本管理PowerShell脚本](version_management.ps1)
+
+---
+
+<div align="center">
+
+**🎯 让代码同步变得简单高效！**
+
+</div> 
