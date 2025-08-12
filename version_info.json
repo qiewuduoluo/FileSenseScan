@@ -1,7 +1,16 @@
 {
-  "current_version": "1.0.0",
-  "versions": [],
-  "last_update": "2025-08-13T07:39:22.398643",
-  "total_commits": 0,
-  "stable_versions": []
+  "current_version": "1.0.1",
+  "versions": [
+    {
+      "version": "1.0.1",
+      "timestamp": "2025-08-13T10:00:00.000000",
+      "description": "GitHub同步更新 - 项目重构完成",
+      "author": "qiewuduoluo",
+      "stability_score": 95.0,
+      "is_stable": true
+    }
+  ],
+  "last_update": "2025-08-13T10:00:00.000000",
+  "total_commits": 1,
+  "stable_versions": ["1.0.1"]
 }
